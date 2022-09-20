@@ -1,0 +1,27 @@
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--gray-700);
+    height: 12.5rem;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.logoWrapper p {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--light-blue);
+}
+
+.logoWrapper span {
+    color: var(--light-purple);
+}
+
